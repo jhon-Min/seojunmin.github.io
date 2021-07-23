@@ -1,3 +1,10 @@
+// ==== Loading =====
+$(window).on('load', function () {
+    $('.loading').fadeOut(600, function () {
+        $(this).remove();
+    });
+});
+
 // // ========== Typed JS ============
  var typed = new Typed('.animate', {
       strings: [
