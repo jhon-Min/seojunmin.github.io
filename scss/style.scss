@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+$primary-font: "Poppins", sans-serif;
+$sec-font: "Patrick Hand", cursive;
+
+$primary-col: #20c997;
+$semi-dark: #343a40;
+$dark: #111418;
+
+@import "./content";
+@import "./sidebar";
+@import "./about_me";
+@import "./work_&_resume";
+@import "./portfolio.scss";
+
+body {
+  color: $dark;
+  font-family: $primary-font !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.current {
+  color: #20c997 !important;
+}
+
+// ============ Global Class ============
+.box {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+  .box-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+.g-title {
+  text-align: center;
+  margin: 0 10px 70px 10px;
+  position: relative;
+
+  h1 {
+    opacity: 0.1;
+  }
+  p {
+    font-size: 36px;
+    position: absolute;
+    font-weight: bold;
+    top: 60px;
+    left: 0;
+    right: 0;
+  }
+  hr {
+    width: 100px;
+    border: 2px solid $primary-col;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+  }
+}
+
+.ani-delay-1 {
+  animation-delay: 0.5s;
+}
+
+.ani-delay-2 {
+  animation-delay: 1s;
+}
+
+.ani-delay-3 {
+  animation-delay: 1.5s;
+}
+
+.ani-delay-4 {
+  animation-delay: 2s;
+}
+
+.ani-delay-5 {
+  animation-delay: 2.5s;
+}

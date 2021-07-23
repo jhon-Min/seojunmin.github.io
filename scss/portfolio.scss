@@ -1,0 +1,39 @@
+.portfolio {
+  padding: 100px 0;
+
+  .pj-card {
+    transition: 0.5s;
+
+    .pj-img {
+      cursor: pointer;
+    }
+    &:hover {
+      transform: scale(1.02);
+      a {
+        text-decoration: none;
+      }
+    }
+    p {
+      font-family: $primary-font;
+      color: #333;
+    }
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    width: 12px !important;
+    height: 12px !important;
+    border: 2px solid #20c997 !important;
+    border-radius: 50% !important;
+  }
+}
+
+.slick-dots li.slick-active {
+  width: 14px !important;
+  height: 14px !important;
+  background: #20c997 !important;
+}

@@ -1,0 +1,84 @@
+// ============ SideBar Start ==========
+.side-bar {
+  background-color: $dark;
+  // min-height: 100vh;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+
+  .fix-box {
+    position: fixed !important;
+
+    .profile {
+      border: 8px solid $semi-dark;
+      max-width: 160px;
+      //  margin: 5px;
+    }
+
+    .links {
+      li {
+        margin-bottom: 22px;
+
+        a {
+          color: #e8e8e8;
+          text-decoration: none;
+          transition: 0.5s;
+
+          &:hover {
+            color: $primary-col;
+          }
+        }
+      }
+    }
+  }
+
+  .mob-icon {
+    cursor: pointer;
+    transition: 0.5s;
+
+    i {
+      &:hover {
+        color: $primary-col !important;
+      }
+    }
+  }
+}
+
+// ============ SideBar End ==========
+
+// ============ Nava Bar Start ==========
+.header-bar {
+  background: $dark;
+
+  .mob-btn {
+    border: none !important;
+    &:focus {
+      outline: none !important;
+    }
+  }
+
+  .mob-icon {
+    cursor: pointer;
+    transition: 0.5s;
+    i {
+      &:hover {
+        color: $primary-col !important;
+      }
+    }
+  }
+
+  .mob-links {
+    li {
+      a {
+        color: #e8e8e8 !important;
+        text-decoration: none;
+        transition: 0.5s;
+        // border-bottom: 0.5px solid rgba(255, 255, 255, .5);
+        padding: 10px 35px;
+
+        &:hover {
+          color: $primary-col !important;
+        }
+      }
+    }
+  }
+}

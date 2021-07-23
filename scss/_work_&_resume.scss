@@ -1,0 +1,93 @@
+// ============ What I Do? ============
+.work {
+  padding: 100px 0;
+
+  .work-info {
+    i {
+      color: $primary-col;
+      background-color: #ffffff;
+      min-width: 70px;
+      height: 70px;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+
+    &:hover {
+      i {
+        transform: scale(1.1);
+        color: #21a77f;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .custom-p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+// ============ Resume? =============
+.resume {
+  padding: 100px 0;
+
+  .resume-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 70px;
+  }
+
+  .resume-card {
+    transition: 0.5s;
+
+    .resume-year {
+      background-color: $primary-col;
+      display: inline-block;
+      padding: 3px 7px;
+      border-radius: 10px;
+      color: #ffffff;
+      transition: 0.5s;
+    }
+
+    h5 {
+      font-size: 25px;
+      transition: 0.5s;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    &:hover {
+      -webkit-box-shadow: 0px 0px 9px 0px rgba(29, 149, 113, 0.5);
+      -moz-box-shadow: 0px 0px 9px 0px rgba(29, 149, 113, 0.5);
+      box-shadow: 0px 0px 9px 0px rgba(29, 149, 113, 0.5);
+      transition: all 0.6s ease;
+
+      h5 {
+        color: #21a77f;
+      }
+      .resume-year {
+        background-color: #21a77f;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .skill {
+    .progress {
+      height: 10px !important;
+    }
+
+    .skill-bar {
+      background-color: $primary-col;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 0 !important;
+    }
+  }
+}
