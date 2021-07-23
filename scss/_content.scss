@@ -4,7 +4,8 @@
   padding-left: 0px !important;
 
   .hero {
-    background-image: url("/img/bg-1.png");
+    // background-image: url("/img/bg-1.jpg");
+    // background-color: darkblue;
     height: 100vh;
     background-size: cover;
     background-position: right center;
@@ -42,38 +43,38 @@
 
 @keyframes slide {
   0% {
-    background-image: url("/img/bg-22.png");
+    background-image: url("/img/bg-22.jpg");
   }
   20% {
-    background-image: url("/img/bg-22.png");
+    background-image: url("/img/bg-22.jpg");
   }
   20.1% {
-    background-image: url("/img/bg-1.png");
+    background-image: url("/img/bg-1.jpg");
   }
   40% {
-    background-image: url("/img/bg-1.png");
+    background-image: url("/img/bg-1.jpg");
   }
 
   40.1% {
-    background-image: url("/img/bg-22.png");
+    background-image: url("/img/bg-22.jpg");
   }
 
   60% {
-    background-image: url("/img/bg-22.png");
+    background-image: url("/img/bg-22.jpg");
   }
   60.1% {
-    background-image: url("/img/bg-1.png");
+    background-image: url("/img/bg-1.jpg");
   }
 
   80% {
-    background-image: url("/img/bg-1.png");
+    background-image: url("/img/bg-1.jpg");
   }
   80.1% {
-    background-image: url("/img/bg-22.png");
+    background-image: url("/img/bg-22.jpg");
   }
 
   100% {
-    background-image: url("/img/bg-22.png");
+    background-image: url("/img/bg-22.jpg");
   }
 }
 
