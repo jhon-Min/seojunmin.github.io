@@ -417,7 +417,7 @@
                 <div class="skill">
                   <div class="d-flex justify-content-between ">
                     <p>HTML/CSS</p>
-                    <p>75%</p>
+                    <p><span class="counter">75</span>%</p>
                   </div>
                   <div class="progress">
                     <div class="progress-bar skill-bar" role="progressbar" style="width: 75%" aria-valuenow="25"
@@ -430,7 +430,7 @@
                 <div class="skill">
                   <div class="d-flex justify-content-between ">
                     <p>BootStrap</p>
-                    <p>75%</p>
+                    <p><span class="counter">75</span>%</p>
                   </div>
                   <div class="progress">
                     <div class="progress-bar skill-bar" role="progressbar" style="width: 75%" aria-valuenow="25"
@@ -443,7 +443,7 @@
                 <div class="skill">
                   <div class="d-flex justify-content-between ">
                     <p>SCSS</p>
-                    <p>70%</p>
+                    <p><span class="counter">50</span>%</p>
                   </div>
                   <div class="progress">
                     <div class="progress-bar skill-bar" role="progressbar" style="width: 70%""
@@ -456,7 +456,7 @@
                 <div class="skill">
                   <div class="d-flex justify-content-between ">
                     <p>Vue</p>
-                    <p>50%</p>
+                    <p><span class="counter">40</span>%</p>
                   </div>
                   <div class="progress">
                     <div class="progress-bar skill-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
@@ -468,8 +468,8 @@
               <div class="col-12 col-md-6 mb-3 mb-md-0">
                 <div class="skill">
                   <div class="d-flex justify-content-between ">
-                    <p>PHP</p>
-                    <p>35%</p>
+                    <p>Laravel</p>
+                    <p><span class="counter">40</span>%</p>
                   </div>
                   <div class="progress">
                     <div class="progress-bar skill-bar" role="progressbar" style="width: 35%" aria-valuenow="35"
@@ -482,7 +482,7 @@
                 <div class="skill">
                   <div class="d-flex justify-content-between ">
                     <p>JS</p>
-                    <p>50%</p>
+                    <p><span class="counter">50</span>%</p>
                   </div>
                   <div class="progress">
                     <div class="progress-bar skill-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
@@ -602,9 +602,16 @@
     integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <script src="vendor/counter_up/counter_up.js"></script>
+
   <script src="vendor/wow/wow.js"></script>
 
   <script>
+    // ===== Counter Up =====
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1000,
+      });
 
     // ========== Slick JS ============
     $('.pj-slide').slick({
